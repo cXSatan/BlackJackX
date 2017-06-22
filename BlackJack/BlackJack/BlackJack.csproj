@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3895BCF1-C85A-40E9-A486-901DD8C36932}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlackJack</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\10_of_Clubs.jpg" />
+    <Resource Include="Imagens\10_of_Diamonds.jpg" />
+    <Resource Include="Imagens\10_of_Hearts.jpg" />
+    <Resource Include="Imagens\10_of_Spades.jpg" />
+    <Resource Include="Imagens\2_of_clubs.jpg" />
+    <Resource Include="Imagens\2_of_diamonds.jpg" />
+    <Resource Include="Imagens\2_of_Hearts.jpg" />
+    <Resource Include="Imagens\2_of_Spades.jpg" />
+    <Resource Include="Imagens\3s.jpg" />
+    <Resource Include="Imagens\3_of_clubs.jpg" />
+    <Resource Include="Imagens\3_of_Diamonds.jpg" />
+    <Resource Include="Imagens\3_of_Hearts.jpg" />
+    <Resource Include="Imagens\3_of_Spades.jpg" />
+    <Resource Include="Imagens\4s_5s.jpg" />
+    <Resource Include="Imagens\4_of_Clubs.jpg" />
+    <Resource Include="Imagens\4_of_Diamonds.jpg" />
+    <Resource Include="Imagens\4_of_Hearts.jpg" />
+    <Resource Include="Imagens\4_of_Spades.jpg" />
+    <Resource Include="Imagens\5_of_Clubs.jpg" />
+    <Resource Include="Imagens\5_of_Diamonds.jpg" />
+    <Resource Include="Imagens\5_of_Hearts.jpg" />
+    <Resource Include="Imagens\5_of_Spades.jpg" />
+    <Resource Include="Imagens\6_7_8_9_10.jpg" />
+    <Resource Include="Imagens\6_of_Clubs.jpg" />
+    <Resource Include="Imagens\6_of_Diamonds.jpg" />
+    <Resource Include="Imagens\6_of_Hearts.jpg" />
+    <Resource Include="Imagens\6_of_Spades.jpg" />
+    <Resource Include="Imagens\7_of_Clubs.jpg" />
+    <Resource Include="Imagens\7_of_Diamonds.jpg" />
+    <Resource Include="Imagens\7_of_Hearts.jpg" />
+    <Resource Include="Imagens\7_of_Spades.jpg" />
+    <Resource Include="Imagens\8_of_Clubs.jpg" />
+    <Resource Include="Imagens\8_of_Diamonds.jpg" />
+    <Resource Include="Imagens\8_of_Hearts.jpg" />
+    <Resource Include="Imagens\8_of_Spades.jpg" />
+    <Resource Include="Imagens\9_of_Clubs.jpg" />
+    <Resource Include="Imagens\9_of_Diamonds.jpg" />
+    <Resource Include="Imagens\9_of_Hearts.jpg" />
+    <Resource Include="Imagens\9_of_Spades.jpg" />
+    <Resource Include="Imagens\Ace.jpg" />
+    <Resource Include="Imagens\Ace_of_Clubs.jpg" />
+    <Resource Include="Imagens\Ace_of_Diamonds.jpg" />
+    <Resource Include="Imagens\Ace_of_Hearts.jpg" />
+    <Resource Include="Imagens\Ace_of_Spades.jpg" />
+    <Resource Include="Imagens\Jack_of_Clubs.jpg" />
+    <Resource Include="Imagens\Jack_of_Diamonds.jpg" />
+    <Resource Include="Imagens\Jack_of_Hearts.jpg" />
+    <Resource Include="Imagens\Jack_of_Spades.jpg" />
+    <Resource Include="Imagens\J_Q_K.jpg" />
+    <Resource Include="Imagens\King_of_Clubs.jpg" />
+    <Resource Include="Imagens\King_of_Diamonds.jpg" />
+    <Resource Include="Imagens\King_of_Hearts.jpg" />
+    <Resource Include="Imagens\King_of_Spades.jpg" />
+    <Resource Include="Imagens\Queen_of_Clubs.jpg" />
+    <Resource Include="Imagens\Queen_of_Diamonds.jpg" />
+    <Resource Include="Imagens\Queen_of_Hearts.jpg" />
+    <Resource Include="Imagens\Queen_of_Spades.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\tableBackground.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagens\back.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

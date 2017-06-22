@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack_MarkupCompile.cache
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack_MarkupCompile.lref
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack.g.resources
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\User\Desktop\Programaçao 2\Projectos\BlackJack\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
